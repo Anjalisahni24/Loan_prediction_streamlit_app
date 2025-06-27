@@ -35,10 +35,12 @@ A machine learning-powered web app built with [Streamlit](https://streamlit.io/)
 
 ## 📁 Project Structure
 
-─ app.py # Streamlit app
-─ loan_model.pkl # Trained machine learning model
-─ requirements.txt # Python dependencies
-─ README.md # Project description
+-app.py # Streamlit app
+-loan_model.pkl # Trained machine learning model
+-loan_approval_dataset # Contains Dataset on which the model is trained
+-loan_prediction_model # Code for Model training through various ML Algorithms
+-requirements.txt # Python dependencies
+-README.md # Project description
 
 
 ---
@@ -47,14 +49,20 @@ A machine learning-powered web app built with [Streamlit](https://streamlit.io/)
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Anjalisahni24/loan-approval-app.git
+   git clone https://github.com/Anjalisahni24/loan-prediction_streamlit_app.git
    cd loan-prediction_steamlit_app
    '''
 2. Install dependencies:
    '''bash
    pip install -r requirements.txt
 '''
-4. Run the app:
+3. Run the app:
 '''bash
 streamlit run app.py
 '''
+---
+
+## 📬 Contact
+📧 24anjalisahni@gmail.com
+🔗 https://www.linkedin.com/in/anjali-sahni-481b44238/
+🌐 GitHub: https://github.com/Anjalisahni24
